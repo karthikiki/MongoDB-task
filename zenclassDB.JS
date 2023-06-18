@@ -5,33 +5,33 @@ db.createCollection("users");
 db.users.insertMany([
     {
         userid:1,
-        name:"Amar",
-        email:"amar088@gmail.com",
+        name:"karthi",
+        email:"karthi@gmail.com",
         Age: 22,
     },
     {
         userid:2,
-        name:"Suresh",
-        email:"Suresh@gmail.com",
-        age:23
+        name:"Vishwa",
+        email:"vishwa@gmail.com",
+        age:22
     },
      {
         userid:3,
-        name:"Paul",
-        email:"Paul@gmail.com",
-        age:25
+        name:"keerthi",
+        email:"keerthi@gmail.com",
+        age:23
     },
      {
         userid:4,
-        name:"Sangeeta",
-        email:"Sangeeta@gmail.com",
-        age:24
+        name:"SriRam",
+        email:"sriram@gmail.com",
+        age:22
     },
      {
         userid:5,
-        name:"Rashmika",
-        email:"Rashmika@gmail.com",
-        age:23
+        name:"Gowtham",
+        email:"gowtham@gmail.com",
+        age:21
     }
     ])
     db.users.find();
@@ -41,23 +41,23 @@ db.users.insertMany([
     db.codekata.insertMany([
         {
             userid:1,
-            SolvedQue:40
+            SolvedQue:76
         },
         {
             userid:2,
-            SolvedQue:50
+            SolvedQue:90
         },
         {
             userid:3,
-            SolvedQue:47
+            SolvedQue:97
         },
         {
             userid:4,
-            SolvedQue:66
+            SolvedQue:36
         },
         {
             userid:5,
-            SolvedQue:39
+            SolvedQue:91
         }
     ]);
     db.codekata.find();
